@@ -1,0 +1,5 @@
+carrier,orders,on_time_rate,avg_days,avg_cost
+Carrier A,1503,62.2,4.66,17.5
+Carrier B,1434,65.3,4.63,17.33
+Carrier C,1172,64.1,4.58,17.34
+Carrier D,891,41.0,5.0,18.07
