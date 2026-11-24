@@ -2,6 +2,10 @@
 
 The analysis was run on 5,000 synthetic delivery orders.
 
+## Dashboard
+
+![Delivery Performance Dashboard](output/delivery_performance_dashboard.svg)
+
 ## Carrier performance
 
 | Carrier | Orders | On-time rate | Average delivery days | Average cost (EUR) |
@@ -21,9 +25,3 @@ The analysis was run on 5,000 synthetic delivery orders.
 ## Key insight
 
 Carrier D has the lowest on-time delivery rate at 41.0%, while rural deliveries perform substantially worse than urban deliveries. The analysis recommends reviewing Carrier D volume, improving rural delivery capacity, and planning additional capacity during peak months.
-
-The dashboard image is generated locally by running:
-
-```bash
-python run_project.py
-```
